@@ -1,0 +1,16 @@
+@InsureAI_HostAddress = http://localhost:5193
+
+GET {{InsureAI_HostAddress}}/api/vehicles/ABC123
+Accept: application/json
+
+###
+
+GET {{InsureAI_HostAddress}}/api/vehicles/abc123
+Accept: application/json
+
+###
+
+GET {{InsureAI_HostAddress}}/api/vehicles/UNKNOWN
+Accept: application/json
+
+###
